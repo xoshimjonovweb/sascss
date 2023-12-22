@@ -1,0 +1,14 @@
+@mixin btn{
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 25px;
+  font-size: 18px;
+  transition: all ease 0.3s;
+  &:hover{
+    background-color: #fff;
+    color: green;
+   
+  }
+}

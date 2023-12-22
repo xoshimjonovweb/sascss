@@ -1,0 +1,23 @@
+.list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.list__item{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: $lightPinc;
+  box-shadow: $mainShadow;
+  img{
+    width: 100%;
+    border: 10px;
+  }
+  h4{
+    font-size: 22px;
+  }
+  button{
+   @include btn;
+    }
+  }
